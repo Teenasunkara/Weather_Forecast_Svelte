@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', 'Segoe UI', system-ui, sans-serif;
+	background: linear-gradient(160deg, #4facfe 0%, #6a5cf5 45%, #1e2a68 100%);
+	background-attachment: fixed;
+	min-height: 100vh;
+	color: #1c2440;
+}
+
+::-webkit-scrollbar {
+	height: 8px;
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.35);
+	border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
